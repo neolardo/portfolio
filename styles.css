@@ -132,6 +132,34 @@ main {
 }
 
 
+
+/* Contact Page Layout */
+.contact-top-left {
+    position: absolute;
+    top: 80px;   /* leaves margin below header */
+    left: 40px;   /* margin from left edge */
+    font-size: 16px;
+}
+
+.contact-top-left a {
+    color: #2c2c2c;
+    text-decoration: none;
+    border-bottom: 1px solid #2c2c2c;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.contact-top-left a:hover {
+    color: #555;
+    border-color: #555;
+}
+
+.contact-top-left h2 {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+
+
 /* Playlist Embeds */
 .playlist-container {
     display: flex;
@@ -190,33 +218,14 @@ main {
 	.extra-margin {
 		margin-top: 24px;
 	}
+	 .contact-top-left {
+		position: absolute;
+		top: 80px;   /* leaves margin below header */
+		left: 40px;   /* margin from left edge */
+		font-size: 16px;
+	}
 }
 
 
 
-
-/* Contact Page Layout */
-.contact-top-left {
-    position: absolute;
-    top: 100px;   /* leaves margin below header */
-    left: 60px;   /* margin from left edge */
-    font-size: 16px;
-}
-
-.contact-top-left a {
-    color: #2c2c2c;
-    text-decoration: none;
-    border-bottom: 1px solid #2c2c2c;
-    transition: color 0.3s ease, border-color 0.3s ease;
-}
-
-.contact-top-left a:hover {
-    color: #555;
-    border-color: #555;
-}
-
-.contact-top-left h2 {
-    font-size: 22px;
-    margin-bottom: 12px;
-}
 
