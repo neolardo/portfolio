@@ -178,6 +178,18 @@ main {
     }
 }
 
+/* Mobiles */
+@media (max-width: 600px) {
+    .playlist h2 {
+        font-size: 20px;
+    }
+    .playlist iframe {
+        max-width: 95%;
+        border-radius: 8px;
+    }
+}
+
+
 /* Contact Page Layout */
 .contact-top-left {
     position: absolute;
