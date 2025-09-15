@@ -187,7 +187,12 @@ main {
         max-width: 95%;
         border-radius: 8px;
     }
+	.extra-margin {
+		margin-top: 24px;
+	}
 }
+
+
 
 
 /* Contact Page Layout */
