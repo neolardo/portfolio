@@ -1,5 +1,5 @@
 /* Importing Roboto Mono font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
 
 * {
     margin: 0;
@@ -11,7 +11,7 @@ body {
     font-family: 'Roboto Mono', monospace;
     font-size: 14px;
     color: #000;
-    background: linear-gradient(135deg, #e0e0e0, #f5f5f5); /* Lighter background restored */
+    background: #fff; /* Lighter background restored */
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -154,8 +154,32 @@ main {
 }
 
 .contact-top-left h2 {
-    font-size: 22px;
+    font-size: 18px;
+    font-weight: 300;
     margin-bottom: 12px;
+    color: #999;
+}
+
+
+/* Bigger on large screens (2K and up) */
+@media (min-width: 1600px) {
+   .contact-top-left h2 {
+        font-size: 22px;
+    }
+}
+
+/* Mobiles */
+@media (max-width: 600px) {
+    .contact-top-left {
+		position: absolute;
+		top: 80px;   /* leaves margin below header */
+		left: 40px;   /* margin from left edge */
+		font-size: 14px;
+	}
+    .contact-top-left h2 {
+        font-size: 16px;
+    }
+  
 }
 
 
@@ -171,14 +195,16 @@ main {
 }
 
 .playlist h2 {
-    font-size: 22px;
-    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #999;
 }
 
 .playlist iframe {
     width: 560px;
     height: 315px;
-    border-radius: 12px;
+    border-radius: 8px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
     border: none;
 }
@@ -190,7 +216,7 @@ main {
         height: 450px;
     }
     .playlist h2 {
-        font-size: 26px;
+        font-size: 22px;
     }
     .playlist-container {
         gap: 120px; /* even more separation */
@@ -204,12 +230,16 @@ main {
         align-items: center;
         gap: 60px;
     }
+     .playlist h2 {
+        margin-bottom: 16px;
+    }
 }
 
 /* Mobiles */
 @media (max-width: 600px) {
     .playlist h2 {
-        font-size: 20px;
+        font-size: 16px;
+        margin-bottom: 14px;
     }
     .playlist iframe {
         max-width: 95%;
@@ -218,12 +248,7 @@ main {
 	.extra-margin {
 		margin-top: 24px;
 	}
-	 .contact-top-left {
-		position: absolute;
-		top: 80px;   /* leaves margin below header */
-		left: 40px;   /* margin from left edge */
-		font-size: 16px;
-	}
+	
 }
 
 
