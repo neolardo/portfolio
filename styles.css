@@ -144,8 +144,15 @@ main {
 .contact-top-left a {
     color: #2c2c2c;
     text-decoration: none;
-    border-bottom: 1px solid #2c2c2c;
     transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.contact-top-left ul{
+	list-style-type: none;
+	margin: 0 10px;
+}
+.contact-top-left li{
+	margin: 5px 0;
 }
 
 .contact-top-left a:hover {
